@@ -1,0 +1,145 @@
+@media(min-width: 700px){
+	.logo{
+		margin: 0px;
+		padding: 0px;
+		
+	}
+	.nvg{}
+	.nvg ul{}
+	.nvg ul li{}
+	.nvg ul li a {
+	font-family: serif;
+	font-size: 25px;
+	line-height: 10px;
+	margin-right: 20px;
+}
+#name {
+	font-size: 65px;
+	font-weight: bolder;
+	font-stretch: ultra-expanded;
+	font-family: serif;
+	text-shadow: 2px 2px #ddd;
+	color: #4E7093;
+}
+.header {
+	padding: 21px 0px;
+	border-bottom: 1px solid #c4c4c4;
+	background: #EDEDED;
+	box-shadow: 0px 10px 8px 0px #dbdbdb;
+	margin-bottom: 20px;
+}
+.header h1 {
+	font-size: 3.5rem;
+	color: #6183A6;
+	font-weight: bold;
+	font-style: italic;
+	font-family: serif;
+}
+.contactForm{background: #fff;}
+.footer {
+	margin-top: 20px;
+	overflow: hidden;
+}
+#logo {
+	display: inline;
+}
+.social {
+	padding: 15px;
+	margin-left: 202px;
+}
+.part {
+	padding-left: 46px;
+	background: #ededed;
+	border-right: 1px dashed #000;
+}
+.part h1,.part3 h1 {
+	color: #8D8D8D;
+	font-family: serif;
+	text-align: center;
+	padding-top: 54px;
+}
+.part p {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 35px;
+}
+.part3 {
+	
+	padding-left: 46px;
+	background: #ededed;
+	border-right: 1px dashed #000;
+}
+.footer a {
+	display: grid;
+	align-content: end;
+	
+}
+.footer a img {
+	width: 65px;
+	background: border-box;
+}
+}
+@media(max-width: 700px){
+	#name {
+	font-size: 30px;
+	font-weight: bolder;
+	font-stretch: ultra-expanded;
+	font-family: serif;
+	text-shadow: 2px 2px #ddf0dd;
+	color: #929292;
+}
+	.header {
+	padding: 21px 0px;
+	border-bottom: 3px solid #c4c4c4;
+	margin-bottom: 20px;
+	box-shadow: 0px 10px 8px 0px #cacaca;
+}
+	.header h1 {
+	font-size: 25px;
+	color: #7E7E7E;
+}
+
+.footer {
+	padding: 30px;
+	margin-top: 50px;
+	background: #E4E4E4;
+}
+h1 {
+	color: #8D8D8D;
+	font-family: serif;
+}
+.footer a {
+	display: grid;
+	align-content: end;
+	
+}
+
+.footer a img {
+	width: 53px;
+	background: border-box;
+	margin-top: 10px;
+}
+#logo {
+	display: inline;
+}
+.part, .part3 {
+	border: 1px solid #d4d4d4;
+	margin: 1px;
+	background: #EFEFEF;
+}
+.part h1, .part3 h1 {
+	color: #464646;
+	font-family: serif;
+	text-align: center;
+	margin-top: 35px;
+	font-size: 21px;
+	background: #D5D5D5;
+	padding: 8px;
+}
+.part p {
+	font-size: 14px;
+	text-align: center;
+	line-height: 24px;
+	color: #3F3F3F;
+}
+}
